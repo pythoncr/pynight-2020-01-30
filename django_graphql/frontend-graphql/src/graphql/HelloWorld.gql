@@ -1,0 +1,6 @@
+query getActor($name: String){
+  actor(name: $name){
+    pk
+    name
+  }
+}
